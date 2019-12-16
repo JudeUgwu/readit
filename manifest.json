@@ -1,0 +1,13 @@
+{
+    "name": "Read-It",
+    "version": "1.0",
+    "description": "Read It Out For you",
+    "manifest_version": 2,
+    "icons":{"128":"icon_128.png"},
+   
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistence":false
+    },
+     "permissions":["tts","contextMenus"]
+}
